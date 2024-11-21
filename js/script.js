@@ -14,7 +14,7 @@
     /* swiper */
     var testimonialSwiper = new Swiper(".book-swiper", {
       slidesPerView: "auto",
-      spaceBetween: 20,
+      spaceBetween: 10,
       loop: true,
       autoplay: {
         delay: 2500,
