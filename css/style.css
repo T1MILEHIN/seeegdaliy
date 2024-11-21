@@ -639,7 +639,7 @@ ul.footer-nav li.active {
 
 /* Hide scrolling while loading */
 .ss-preload {
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 /* Allow scrolling once loaded */
@@ -691,7 +691,7 @@ ul.footer-nav li.active {
 
     section.subscribe {
         position: relative;
-        padding: 500px 25px 100px 25px;
+        padding: 250px 25px 100px 25px;
         background-color: var(--bs-btnyellow);
     }
 
@@ -699,6 +699,9 @@ ul.footer-nav li.active {
         font-size: 50px;
         line-height: 50px;
         color: #010122;
+    }
+    section.subscribe>div:first-child {
+        height: 300px;
     }
 
     section.subscribe>div:last-child p {
