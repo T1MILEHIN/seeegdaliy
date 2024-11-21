@@ -626,7 +626,7 @@ ul.footer-nav li.active {
 
 /* Hide scrolling while loading */
 .ss-preload {
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 /* Allow scrolling once loaded */
