@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/lightbox.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--style sheet-->
     <link rel="stylesheet" href="css/style.css" />
 </head>
@@ -111,14 +112,14 @@
             </nav>
         </header>
         <section class="landing-section">
-            <div class="text-center d-flex flex-column gap-lg-3 gap-1">
+            <div data-aos="fade-up" data-aos-delay="400" class="text-center d-flex flex-column gap-lg-3 gap-1">
                 <h1 class="font-bold text-white">About Us</h1>
                 <p class="font-regular">Fostering daily growth</p>
             </div>
         </section>
     </main>
     <section class="">
-        <div class="">
+        <div class="" data-aos="fade-left">
             <div class="swiper book-swiper">
                 <div class="swiper-wrapper book-slider">
                     <div class="book-card swiper-slide">
@@ -193,26 +194,26 @@
     <section class="mission-vision">
         <div class="d-flex flex-column gap-5">
             <div>
-                <h1 class="font-bold">Our Mission</h1>
-                <p>SEEEG is a vibrant online community where Christians unite, inspiring growth, spiritual enrichment,
+                <h1 data-aos="fade-right" class="font-bold">Our Mission</h1>
+                <p data-aos="fade-right" data-aos-delay="100">SEEEG is a vibrant online community where Christians unite, inspiring growth, spiritual enrichment,
                     and fellowship. Our mission is to empower believers through prayer, Bible study, devotionals, and
                     inspirational resources.</p>
             </div>
             <div>
-                <h1 class="font-bold">Our Vision</h1>
-                <p><b>Seek:</b> Explore scripture, ask questions and deepen their faith.</p>
-                <p><b>Grow:</b> Develop spiritually through insightful teachings and discussions.</p>
-                <p><b>Connect:</b> Foster meaningful relationships and supportive networks.</p>
-                <p><b>Serve:</b> Impact their communities and the world.</p>
+                <h1 data-aos="fade-right" class="font-bold">Our Vision</h1>
+                <p data-aos="fade-down"><b>Seek:</b> Explore scripture, ask questions and deepen their faith.</p>
+                <p data-aos="fade-down" data-aos-delay="100"><b>Grow:</b> Develop spiritually through insightful teachings and discussions.</p>
+                <p data-aos="fade-down" data-aos-delay="200"><b>Connect:</b> Foster meaningful relationships and supportive networks.</p>
+                <p data-aos="fade-down" data-aos-delay="300"><b>Serve:</b> Impact their communities and the world.</p>
             </div>
         </div>
     </section>
 
     <section class="subscribe">
-        <div></div>
+        <div data-aos=""></div>
         <div>
-            <h1 class="font-bold">Subscribe</h1>
-            <p>Stay updated on inspiring content, events and community news.
+            <h1 data-aos="fade-right" class="font-bold">Subscribe</h1>
+            <p data-aos="fade-right"  data-aos-delay="100">Stay updated on inspiring content, events and community news.
                 Let's grow together in faith!</p>
             <button>Subscribe</button>
         </div>
@@ -220,58 +221,62 @@
 
     <footer>
         <div>
-            <div>
-                <a href="index.html">
-                    <h1 class="font-bold fs-4 text-white">SEEEGDAILY</h1>
+          <div data-aos="fade-up">
+            <a href="index.html">
+              <h1 class="font-bold fs-4 text-white">SEEEGDAILY</h1>
+            </a>
+          </div>
+          <div data-aos="fade-up" data-aos-delay="100">
+            <ul class="navbar-nav flex-grow-1">
+              <li class="nav-item">
+                <a class="nav-link ls-4 text-white" aria-current="page" href="about.html">About
                 </a>
-            </div>
-            <div>
-                <ul class="footer-nav navbar-nav flex-grow-1">
-                    <li class="nav-item active">
-                        <a class="nav-link ls-4" aria-current="page" href="about.html">About
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link ls-4" aria-current="page" href="resources.html">Resources
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link ls-4" aria-current="page" href="index.html">Learn
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link ls-4" aria-current="page" href="index.html">Contact
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <ul class="navbar-nav flex-grow-1 lh-lg">
-                    <li class="nav-item">
-                        +24456780976
-                    </li>
-                    <li class="nav-item">
-                        www.seeegdaily.org
-                    </li>
-                    <li class="nav-item">
-                        3456 Corporate Boulevard, Suite 100, Metropolis, NY 10001
-                    </li>
-                </ul>
-            </div>
-            <div class="fs-2">
-                <i class="fa-brands fa-youtube"></i>
-                <i class="fa-brands fa-linkedin"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-square-facebook"></i>
-                <i class="fa-brands fa-square-x-twitter"></i>
-            </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ls-4 text-white" aria-current="page" href="resources.html">Resources
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ls-4 text-white" aria-current="page" href="index.html">Books
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ls-4 text-white" aria-current="page" href="index.html">Learn
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ls-4 text-white" aria-current="page" href="index.html">Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div data-aos="fade-up" data-aos-delay="200">
+            <ul class="navbar-nav flex-grow-1 lh-lg">
+              <li class="nav-item">
+                +24456780976
+              </li>
+              <li class="nav-item">
+                www.seeegdaily.org
+              </li>
+              <li class="nav-item">
+                3456 Corporate Boulevard, Suite 100, Metropolis, NY 10001
+              </li>
+            </ul>
+          </div>
+          <div data-aos="fade-up" data-aos-delay="300" class="fs-2">
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-x-twitter"></i>
+          </div>
         </div>
         <div class="d-flex align-items-center gap-4">
-            <hr class="flex-grow-1" />
-            <span class="">&copy; 2024 www.seeegdaily.org</span>
-            <hr class="flex-grow-1" />
+          <hr class="flex-grow-1" />
+          <span class="">&copy; 2024 www.seeegdaily.org</span>
+          <hr class="flex-grow-1" />
         </div>
-    </footer>
+      </footer>
 
     <script src="js/jquery-1.11.0.min.js"></script>
     <!-- jquery file-->
@@ -290,7 +295,29 @@
     <script type="text/javascript" src="js/lightbox.min.js"></script>
 
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/script.js"></script>
+    <script>
+        AOS.init({
+          disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+          startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+          initClassName: 'aos-init', // class applied after initialization
+          animatedClassName: 'aos-animate', // class applied on animation
+          useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+          disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+          debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+          throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+    
+          // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+          offset: 120, // offset (in px) from the original trigger point
+          delay: 0, // values from 0 to 3000, with step 50ms
+          duration: 400, // values from 0 to 3000, with step 50ms
+          easing: 'ease', // default easing for AOS animations
+          once: true, // whether animation should happen only once - while scrolling down
+          mirror: false, // whether elements should animate out while scrolling past them
+          anchorPlacement: 'top-bottom',
+        });
+    </script>
 </body>
 
 </html>

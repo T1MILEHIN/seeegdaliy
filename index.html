@@ -97,7 +97,7 @@
           </a>
           <ul class="d-flex gap-5">
             <a href="index.html">
-              <li class="font-bold">Home</li>
+              <li class="font-bold active">Home</li>
             </a>
             <a href="about.html">
               <li class="font-bold">About</li>
@@ -114,7 +114,7 @@
     </header>
     <section class="landing-section">
       <div class="text-center d-flex flex-column gap-lg-3 gap-1">
-        <h1 data-aos="fade-up" class="font-bold text-white">SEEGS Daily's<br />Purpose</h1>
+        <h1 data-aos="fade-up" class="font-bold text-white">SEEEGSDAILY<br />Purpose</h1>
         <p class="font-regular">Fostering daily growth</p>
       </div>
     </section>
@@ -122,10 +122,10 @@
 
   <section class="resources py-5">
     <div class="">
-      <h1 class="font-bold fs-1 w-75 w-lg-50 mx-auto text-center py-5">Reaching a New Generation with a Message of Hope
+      <h1 data-aos="fade-up" class="font-bold fs-1 w-75 w-lg-50 mx-auto text-center py-5">Reaching a New Generation with a Message of Hope
       </h1>
     </div>
-    <div class="p-5">
+    <div data-aos="fade-up" class="p-5">
       <div>
         <h2>Resources for Spiritual Growth</h2>
         <p class="font-medium fs-5">SEEEG Daily provides a wide range of resources for individuals seeking a deeper
@@ -139,19 +139,19 @@
 
   <section class="journey py-5">
     <div class="d-flex align-items-center flex-lg-row flex-column">
-      <div class="flex-grow-1 d-flex flex-column gap-2 p-lg-5 p-3">
+      <div data-aos="fade-right" class="flex-grow-1 d-flex flex-column gap-2 p-lg-5 p-3">
         <h1 class="font-black">Our Journey</h1>
         <p class="font-regular">Discover how SEEEG Daily has been empowering individuals to grow spiritually and strengthening their faith in Christ.</p>
         <button class="font-bold">About Us</button>
       </div>
-      <div class="flex-grow-1">
+      <div data-aos="fade-left" class="flex-grow-1">
         <img src="./images/our-journey.png" alt="" class="w-100">
       </div>
     </div>
   </section>
 
   <section class="py-5">
-    <div class="py-5">
+    <div data-aos="fade-left" class="py-5">
       <div class="swiper book-swiper">
         <div class="swiper-wrapper book-slider">
           <div class="book-card swiper-slide">
@@ -224,19 +224,19 @@
   </section>
 
   <section class="focus-area">
-    <h1 class="font-bold">Focus Area</h1>
+    <h1 data-aos="fade-right" class="font-bold">Focus Area</h1>
     <div class="d-flex flex-lg-row flex-column align-items-center p-4 p-lg-5">
-      <div class="flex-grow-1 p-3 p-lg-5">
+      <div data-aos="fade-up" class="flex-grow-1 p-3 p-lg-5">
         <h2 class="font-bold">Prayers</h2>
         <p class="lh-lg">Discover the transformative power of prayer and how it can strengthen your relationship with
           Christ.</p>
       </div>
-      <div class="flex-grow-1 p-3 p-lg-5">
+      <div data-aos="fade-up" data-aos-delay="100"   class="flex-grow-1 p-3 p-lg-5">
         <h2>Bible Study</h2>
         <p class="lh-lg">Immerse yourself in the simplicity and depth of God's Word through our comprehensive study
           programs</p>
       </div>
-      <div class="flex-grow-1 p-3 p-lg-5">
+      <div data-aos="fade-up" data-aos-delay="200" class="flex-grow-1 p-3 p-lg-5">
         <h2>Fellowship</h2>
         <p class="lh-lg">Connect with a community of believers to support and encourage each other in your spiritual
           journey</p>
@@ -246,12 +246,12 @@
 
   <footer>
     <div>
-      <div>
+      <div data-aos="fade-up">
         <a href="index.html">
           <h1 class="font-bold fs-4 text-white">SEEEGDAILY</h1>
         </a>
       </div>
-      <div>
+      <div data-aos="fade-up" data-aos-delay="100">
         <ul class="navbar-nav flex-grow-1">
           <li class="nav-item">
             <a class="nav-link ls-4 text-white" aria-current="page" href="about.html">About
@@ -275,7 +275,7 @@
           </li>
         </ul>
       </div>
-      <div>
+      <div data-aos="fade-up" data-aos-delay="200">
         <ul class="navbar-nav flex-grow-1 lh-lg">
           <li class="nav-item">
             +24456780976
@@ -288,7 +288,7 @@
           </li>
         </ul>
       </div>
-      <div class="fs-2">
+      <div data-aos="fade-up" data-aos-delay="300" class="fs-2">
         <i class="fa-brands fa-youtube"></i>
         <i class="fa-brands fa-linkedin"></i>
         <i class="fa-brands fa-instagram"></i>
@@ -336,7 +336,7 @@
       delay: 0, // values from 0 to 3000, with step 50ms
       duration: 400, // values from 0 to 3000, with step 50ms
       easing: 'ease', // default easing for AOS animations
-      once: false, // whether animation should happen only once - while scrolling down
+      once: true, // whether animation should happen only once - while scrolling down
       mirror: false, // whether elements should animate out while scrolling past them
       anchorPlacement: 'top-bottom',
   });

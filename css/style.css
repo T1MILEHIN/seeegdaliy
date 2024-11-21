@@ -31,6 +31,7 @@
 
 body {
     margin: 0;
+    overflow-x: hidden;
 }
 
 /* fonts color */
@@ -755,5 +756,8 @@ ul.footer-nav li.active {
     section.author>div>div:last-child>p:nth-child(3) {
         font-size: 20px;
         line-height: 30px;
+    }
+    .author-img img {
+        width: 100%;
     }
 }
