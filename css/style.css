@@ -366,7 +366,7 @@ header {
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(to top, white 1%, rgba(255, 255, 255, 0) 99%);
+    background: linear-gradient(to top, rgb(255, 255, 255) 1%, rgba(255, 255, 255, 0) 90%);
     z-index: -1;
 }
 
@@ -651,8 +651,13 @@ ul.footer-nav li.active {
         font-size: 50.04px;
         line-height: 50px;
     }
+
     section.resources>div:last-child {
         width: 90%;
+    }
+
+    section.journey h1 {
+        font-size: 50px;
     }
 
     section.focus-area h1 {
