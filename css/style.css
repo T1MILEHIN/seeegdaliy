@@ -620,17 +620,18 @@ ul.footer-nav li.active {
     color: white;
 }
 
-.ss-preload {
-    /* display: none; */
-}
-
 .ss-loaded {
     display: block;
 }
 
-.no-js #preloader,
-.oldie #preloader {
-    display: none;
+/* Hide scrolling while loading */
+.ss-preload {
+    overflow: hidden;
+}
+
+/* Allow scrolling once loaded */
+.ss-loaded {
+    overflow: auto;
 }
 
 @media only screen and (max-width: 900px) {
@@ -719,18 +720,18 @@ ul.footer-nav li.active {
         font-size: 50px;
         line-height: 50px;
     }
-    
+
     section.author>div>div:last-child>div p {
         color: var(--bs-btnyellow);
         font-size: 25px;
         line-height: 25px;
     }
-    
+
     section.author>div>div:last-child>p:nth-child(2) {
         font-size: 20px;
         line-height: 20px;
     }
-    
+
     section.author>div>div:last-child>p:nth-child(3) {
         font-size: 20px;
         line-height: 30px;

@@ -3,6 +3,7 @@
   $(document).ready(function () {
     // masonoary //
     initIsotope();
+    ssPreloader();
     // lightbox
     lightbox.option({
       resizeDuration: 200,
@@ -63,7 +64,7 @@
   });
   const ssPreloader = function () {
     $("html").addClass('ss-preload');
-    $WIN.on('load', function () {
+    $(window).on('load', function () {
       $("#loader").fadeOut("slow", function () {
         $("#preloader").delay(300).fadeOut("slow");
       });
@@ -72,5 +73,5 @@
 
     });
   };
-  ssPreloader();
+  
 })(jQuery);
