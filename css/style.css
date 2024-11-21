@@ -651,6 +651,9 @@ ul.footer-nav li.active {
         font-size: 50.04px;
         line-height: 50px;
     }
+    section.resources>div:last-child {
+        width: 90%;
+    }
 
     section.focus-area h1 {
         font-size: 50px;
