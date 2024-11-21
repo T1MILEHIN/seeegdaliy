@@ -49,8 +49,12 @@
         <span class="sr-only">Loading...</span>
     </div>
 </div>
-  <main class="main-landing"
-    style="background-image: url(images/banner.png); background-size: cover ; background-repeat: no-repeat; background-position: center;">
+  <main class="main-landing">
+    <video id="background-video" autoplay loop muted>
+      <source src="./video/video.mp4" type="video/mp4">
+      <!-- Add fallback for browsers that don't support video -->
+      Your browser does not support the video tag.
+    </video>
     <header id="top" class="">
       <nav class="fixed-top">
         <div class="container-fluid">
