@@ -400,6 +400,10 @@ section.journey h1 {
     font-size: 100px;
 }
 
+section.journey p {
+    font-size: 25px;
+}
+
 section.journey>div {
     color: white;
     background-color: #000011;
@@ -418,6 +422,8 @@ section.journey button {
     padding: 12px 24px;
     width: fit-content;
 }
+
+
 
 .book-slider p {
     width: 320px;
@@ -494,7 +500,6 @@ section.subscribe>div:first-child {
     top: -100px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: black;
     width: 80%;
     height: 500px;
 }
@@ -644,6 +649,15 @@ ul.footer-nav li.active {
     overflow: auto;
 }
 
+button {
+    transition: transform 100ms ease-in-out;
+    transform-origin: bottom;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
 @media only screen and (max-width: 900px) {
 
     .landing-section h1 {
@@ -662,6 +676,10 @@ ul.footer-nav li.active {
 
     section.journey h1 {
         font-size: 50px;
+    }
+
+    section.journey p {
+        font-size: 20px;
     }
 
     section.focus-area h1 {
