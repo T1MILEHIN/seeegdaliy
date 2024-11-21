@@ -429,23 +429,19 @@ section.journey button {
     width: fit-content;
 }
 
-.book-slider>div:first-child,
-.book-slider>div:nth-child(5) {
+.book-1 {
     background-color: black;
 }
 
-.book-slider>div:nth-child(2),
-.book-slider>div:nth-child(6) {
+.book-2 {
     background-color: #522989;
 }
 
-.book-slider>div:nth-child(3),
-.book-slider>div:nth-child(7) {
+.book-3 {
     background-color: var(--bs-btnyellow);
 }
 
-.book-slider>div:nth-child(4),
-.book-slider>div:nth-child(8) {
+.book-4 {
     background-color: #1D9000;
 }
 
@@ -625,6 +621,7 @@ ul.footer-nav li.active {
 #preloader {
     position: fixed;
     inset: 0;
+    width: 100vw;
     z-index: 999999999999999999;
     background: #121212;
     display: flex;
@@ -652,6 +649,11 @@ ul.footer-nav li.active {
     .landing-section h1 {
         font-size: 50.04px;
         line-height: 50px;
+    }
+
+    .landing-section p {
+        font-size: 20.36px;
+        line-height: 36.28px;
     }
 
     section.resources>div:last-child {
@@ -701,6 +703,7 @@ ul.footer-nav li.active {
         color: #010122;
     }
     section.subscribe>div:first-child {
+        width: 95%;
         height: 300px;
     }
 
@@ -727,7 +730,6 @@ ul.footer-nav li.active {
         font-size: 20px;
         line-height: 30px;
     }
-
 
     section.author>div>div:last-child h1 {
         font-size: 100px;
@@ -762,5 +764,8 @@ ul.footer-nav li.active {
     }
     .author-img img {
         width: 100%;
+    }
+    footer {
+        padding: 20px;
     }
 }
